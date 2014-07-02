@@ -25,6 +25,7 @@
 		F00FDE82195F08F800C91CC5 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = F00FDE7D195F08F800C91CC5 /* Level_4.json */; };
 		F00FDE84195F097B00C91CC5 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00FDE83195F097B00C91CC5 /* Tile.swift */; };
 		F00FDE86195F0A7500C91CC5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00FDE85195F0A7500C91CC5 /* Extension.swift */; };
+		F07E270B196489A5000C3621 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07E270A196489A5000C3621 /* Swap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F00FDE7D195F08F800C91CC5 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
 		F00FDE83195F097B00C91CC5 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		F00FDE85195F0A7500C91CC5 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F07E270A196489A5000C3621 /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				F00FDE6E195B5CAB00C91CC5 /* Sprites.atlas */,
 				F00FDE4D195B5C4E00C91CC5 /* AppDelegate.swift */,
 				F00FDE51195B5C4E00C91CC5 /* GameScene.swift */,
+				F07E270A196489A5000C3621 /* Swap.swift */,
 				F00FDE53195B5C4E00C91CC5 /* GameViewController.swift */,
 				F00FDE70195B636200C91CC5 /* Cookie.swift */,
 				F00FDE72195CBA7500C91CC5 /* Array2D.swift */,
@@ -265,6 +268,7 @@
 				F00FDE52195B5C4E00C91CC5 /* GameScene.swift in Sources */,
 				F00FDE77195DECB700C91CC5 /* Level.swift in Sources */,
 				F00FDE71195B636200C91CC5 /* Cookie.swift in Sources */,
+				F07E270B196489A5000C3621 /* Swap.swift in Sources */,
 				F00FDE84195F097B00C91CC5 /* Tile.swift in Sources */,
 				F00FDE75195CBF5C00C91CC5 /* Set.swift in Sources */,
 				F00FDE54195B5C4E00C91CC5 /* GameViewController.swift in Sources */,
@@ -457,6 +461,7 @@
 				F00FDE6A195B5C4E00C91CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F00FDE6B195B5C4E00C91CC5 /* Build configuration list for PBXNativeTarget "CookieCrunchTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				F00FDE6D195B5C4E00C91CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
